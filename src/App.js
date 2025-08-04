@@ -1,11 +1,9 @@
 import React from 'react'
-import AppRouter from "./router/AppRouter"
-import PrivateRouter from "./router/PrivateRouter"
+import "./index.css"
 const App = () => {
     return (
         <div className='appWrapper'>
-            <AppRouter />
-            <PrivateRouter />
+                <h1>App</h1>
         </div>
     )
 }
