@@ -1,0 +1,130 @@
+/* Ana konteyner */
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2c2c2c;
+    /* Koyu arka plan */
+    color: #f5f5f5;
+    /* Açık metin rengi */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Başlık */
+.aboutWrapper h1 {
+    color: #f5f5f5;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Açıklama metni */
+.aboutDescription {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+    font-size: 1.1rem;
+    color: #ddd;
+    /* Açık gri metin */
+}
+
+/* Detay kutularını içeren kapsayıcı */
+.aboutDetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Kutular arası boşluk */
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* Her bir detay kutusu */
+.detailItem {
+    background-color: #383838;
+    /* Koyu gri kutu arka planı */
+    border: 1px solid #4a4a4a;
+    border-radius: 8px;
+    padding: 25px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    /* Kutuların maksimum genişliği */
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    text-align: left;
+    /* Metin sola hizalı */
+}
+
+.detailItem:hover {
+    transform: translateY(-5px);
+    /* Hover efekti */
+}
+
+/* Detay kutusu başlığı */
+.detailItem h3 {
+    color: wheat;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid wheat;
+    /* Başlık altına renkli çizgi */
+    padding-bottom: 10px;
+}
+
+/* Detay kutusu paragrafları */
+.detailItem p,
+.detailItem ul {
+    color: #b0b0b0;
+    /* Açık gri metin */
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* İletişim bilgileri */
+.aboutContact {
+    color: #ddd;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* İletişim linki */
+.aboutContact a {
+    color: #87ceeb;
+    /* Açık mavi link rengi */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.aboutContact a:hover {
+    text-decoration: underline;
+    color: #6495ed;
+}
+
+/* Daha küçük ekranlar için düzenlemeler */
+@media (max-width: 768px) {
+    .aboutWrapper {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .aboutDetails {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .detailItem {
+        width: 100%;
+        min-width: unset;
+    }
+}
