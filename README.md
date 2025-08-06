@@ -1,8 +1,8 @@
 -----
 
-# Tam Yığın Web Geliştirme Uygulama Projesi
+# Full Stack Web Geliştirme Uygulama Projesi
 
-Bu proje, modern **Tam Yığın Web Geliştirme** yeteneklerimi sergilemek üzere tasarlanmış kapsamlı bir uygulamadır. HTML5, CSS3, JavaScript, React.js (Redux, Hooks, Context API ile), Node.js, Express.js ve MongoDB gibi sektörde popüler teknolojileri kullanarak gerçek dünya problemlerine çözümler üreten, duyarlı ve dinamik bir web uygulaması geliştirmeyi amaçlamaktadır.
+Bu proje, modern **Full Stack Web Geliştirme** yeteneklerimi sergilemek üzere tasarlanmış kapsamlı bir uygulamadır. HTML5, CSS3, JavaScript, React.js (Redux, Hooks, Context API ile), Node.js, Express.js ve MongoDB gibi sektörde popüler teknolojileri kullanarak gerçek dünya problemlerine çözümler üreten, duyarlı ve dinamik bir web uygulaması geliştirmeyi amaçlamaktadır.
 
 -----
 
@@ -51,7 +51,7 @@ Bu proje, aşağıdaki temel teknolojiler ve kavramlar üzerine inşa edilmişti
       * MongoDB için en popüler Nesne Veri Modelleme Kütüphanesi Mongoose JS'i kullanma.
       * CRUD (Create, Read, Update, Delete) operasyonları için sorgular yazma.
       * Veritabanı yönetimi için terminal komutlarını anlama.
-  * **MERN Stack**: React.js, Express.js, Node.js ve MongoDB'yi bir araya getirerek tam yığın uygulamalar geliştirme:
+  * **MERN Stack**: React.js, Express.js, Node.js ve MongoDB'yi bir araya getirerek Full Stack uygulamalar geliştirme:
       * Harika, duyarlı bir açılış sayfası (landing page) oluşturma.
       * Gerçek dünya MERN Stack projeleri ve web uygulamaları geliştirme.
 

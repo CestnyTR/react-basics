@@ -1,11 +1,9 @@
-import React from 'react'
-import "./index.css"
 const App = () => {
     return (
-        <div className='appWrapper'>
-                <h1>App</h1>
-        </div>
-    )
+        <>
+            <h1>Hello, React!</h1>
+        </>
+    );
 }
 
-export default App
+export default App;
