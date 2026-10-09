@@ -76,3 +76,9 @@ Bu proje kişisel öğrenme ve gelişim amacıyla oluşturulmuştur. Ancak, herh
   * **E-posta**: fahriaydin47@gmail.com
 
 -----
+## Çalıştırma
+```bash
+npm install
+npm start
+```
+
